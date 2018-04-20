@@ -1,3 +1,6 @@
+# Desarrollado por Camilo Correa Restrepo
+# ccorre20@eafit.edu.co, 201410046010
+
 import numpy as np
 import pandas as pd
 from scipy.stats import mode
@@ -8,8 +11,8 @@ import time
 
 
 def load_img():
-    # return cv2.imread('imgs/k6_2.jpg')
-    return cv2.imread('imgs/IMG_9440.jpg')
+    return cv2.imread('imgs/k6_2.jpg')
+    # return cv2.imread('imgs/IMG_9440.jpg')
 
 
 def draw_square(img, color, x, y):
